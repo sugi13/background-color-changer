@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+/* font-family: "DM Serif Display", serif; */
+
+body{
+    font-family: "Hanken Grotesk", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-change{
+    margin: 3.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+.bg-change h3{
+    font-size: 4rem;
+    width: 50%;
+    font-family: "DM Serif Display", serif;
+
+    @media (width < 568px) {
+        font-size: 3rem;
+        width: 100%;
+    }
+}
+button{
+    position: relative;
+    top: -40px;
+    background: black;
+    width: 100px;
+    color:white;
+    padding: 10px 10px;
+    font-family: "DM Serif Display", serif;
+    border: none;
+    border-radius: 10px;
+
+    @media (width < 568px) {
+        position: relative;
+        top: -50px;
+        font-size: 1rem;
+        width: 100px;
+        letter-spacing: 2px;
+    }
+}
